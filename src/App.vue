@@ -1,0 +1,25 @@
+<template>
+  <AmazonRanking/>
+</template>
+
+<script>
+import AmazonRanking from './components/AmazonRanking.vue'
+
+export default {
+  name: 'app',
+  components: {
+      AmazonRanking
+  }
+}
+</script>
+
+<style>
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
